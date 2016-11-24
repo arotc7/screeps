@@ -10,7 +10,7 @@ var spawner = {
             }
         }
 
-        var spawners[wokerSpawner, attackSpawner];
+        var spawners = [wokerSpawner, attackSpawner];
 
         for(var spawner in spawners) {
             spawner.spawn(spawn);
