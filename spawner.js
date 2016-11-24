@@ -1,5 +1,5 @@
-var workerSpawner = require('workerSpawner');
-var attackSpawner = require('fighterSpawner');
+var workerSpawner = require('worker.spawner');
+var attackSpawner = require('figher.spawner');
 
 var spawner = {
     spawn: function(spawn) {
