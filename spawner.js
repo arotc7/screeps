@@ -10,11 +10,8 @@ var spawner = {
             }
         }
 
-        var spawners = [workerSpawner, fighterSpawner];
-
-        for(var s in spawners) {
-            s.spawn(spawn);
-        }
+        workerSpawner.spawn(spawn);
+        fighterSpawner.spawn(spawn);
     }
 }
 
