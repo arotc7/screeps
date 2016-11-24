@@ -1,6 +1,6 @@
-var BUILDERS_COUNT = 2;
+var BUILDERS_COUNT = 3;
 var UPGRADERS_COUNT = 4;
-var HARVESTERS_COUNT = 4;
+var HARVESTERS_COUNT = 3;
 
 
 var spawner = {
