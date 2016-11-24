@@ -1,10 +1,10 @@
-RANGED_ATTACK_CREEPS = 5;
-ATTACK_CREEPS = 5;
+var RANGED_ATTACK_CREEPS = 5;
+var ATTACK_CREEPS = 5;
 
-var attackSpawner = {
+var fighterSpawner = {
     spawn: function(spawner) {
-        
+
     }
 }
 
-module.exports = attackSpawner;
+module.exports = fighterSpawner;

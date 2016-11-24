@@ -1,5 +1,5 @@
 var workerSpawner = require('worker.spawner');
-var attackSpawner = require('figher.spawner');
+var fighterSpawner = require('fighter.spawner');
 
 var spawner = {
     spawn: function(spawn) {
@@ -10,10 +10,10 @@ var spawner = {
             }
         }
 
-        var spawners = [wokerSpawner, attackSpawner];
+        var spawners = [workerSpawner, fighterSpawner];
 
-        for(var spawner in spawners) {
-            spawner.spawn(spawn);
+        for(var s in spawners) {
+            s.spawn(spawn);
         }
     }
 }
