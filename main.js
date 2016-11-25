@@ -7,8 +7,7 @@ var roadBuilder = require('build.road');
 
 module.exports.loop = function () {
 
-    //var tower = Game.getObjectById('583740aba6d61f8e7ea9266b');
-    var tower = false;
+    var tower = Game.getObjectById('583740aba6d61f8e7ea9266b');
     if(tower) {
         var closestDamagedStructure = tower.pos.findClosestByRange(FIND_STRUCTURES, {
             filter: (structure) => structure.hits < structure.hitsMax
