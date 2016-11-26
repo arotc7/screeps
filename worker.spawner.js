@@ -22,7 +22,7 @@ var workerSpawner = {
         console.log('Upgraders: ' + upgraders.length);
         if(upgraders.length < constants.UPGRADERS_COUNT) {
 
-            var newName = spawner.createCreep(creepType, undefined, {role: 'upgrader', upgrading: false});
+            var newName = spawner.createCreep([WORK, CARRY, MOVE], undefined, {role: 'upgrader', upgrading: false});
             console.log('Spawning new upgrader: ' + newName);
         }
 
