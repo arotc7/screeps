@@ -11,7 +11,7 @@ var spawner = {
         }
 
         workerSpawner.spawn(spawn);
-        fighterSpawner.spawn(spawn);
+        //fighterSpawner.spawn(spawn);
     }
 }
 
